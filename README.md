@@ -18,14 +18,7 @@ Este proyecto tiene como objetivo crear una landing page informativa y atractiva
 
 - **Noticias y Actualizaciones:** Mantente al día con las últimas noticias y actualizaciones relacionadas con Re:Zero, como nuevos volúmenes, adaptaciones y eventos.
 
-## Cómo Contribuir 🤝
-
-¡Agradecemos cualquier contribución que quieras hacer para mejorar esta Landing Page! Si tienes sugerencias, correcciones o información adicional para agregar, no dudes en abrir un problema o enviar una solicitud de extracción en nuestro repositorio en GitHub.
-
-## Licencia 📜
-
-Este proyecto se distribuye bajo la Licencia [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.es). Si deseas utilizar o compartir contenido de esta Landing Page, asegúrate de seguir los términos de la licencia.
 
 ---
 
-¡Esperamos que disfrutes explorando el mundo de las novelas ligeras de Re:Zero a través de esta Landing Page! Siéntete libre de contactarnos si tienes alguna pregunta o sugerencia. 📧🙂
+¡Esperamos que disfrutes explorando el mundo de las novelas ligeras de Re:Zero a través de esta Landing Page!📧🙂
