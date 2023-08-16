@@ -5,28 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .imagen-fija {
+          position:fixed;
+          top: 50px; /* Ajusta la distancia desde la parte superior */
+          left:0px; /* Ajusta la distancia desde la parte derecha */
+          z-index: 999; /* Valor alto para asegurarse de que esté por encima de otros elementos */
+          transform: translate(0, 0); /* Ajusta la posición si es necesario */
+        }
+        .img-logo{
+            width: 200px;
+            padding-top: 20px;
+            padding-left: 100px;
+        }
+        </style>
+ 
 </head>
 <body>
+    <div class="audio">
+        <img class="imagen-fija" src="./imgs/rem.png" width="150px" onclick="toggleAudio()">
+        <audio id="musica1" loop>
+            <source src="./audio/ocho.mp3" type="audio/mpeg"> <!-- Cambiado a type="audio/mpeg" para formato MP3 -->
+        </audio>
+    </div>
+    <script>
+        function toggleAudio() {
+            var audio = document.getElementById("musica1");
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    </script>
 <!--?BARRA DE NAVEGACION-->
     <header>
         <div class="logo">
-            <h1>Header logo</h1>
+            <img class="img-logo" src="./imgs/logo-rezero.png">
         </div>
         <ul class="nav-bar">   
-            <li><a href="">Header link one</a></li>
-            <li><a href="">Header link two</a></li>
-            <li><a href="">Header link three</a></li>
+            <li><a href="">Personajes</a></li>
+            <li><a href="">Anime</a></li>
+            <li><a href="">Sounds</a></li>
+            <li><a href="">Contactanos</a></li>
+
         </ul>
     </header>
 <!--? Contenido inicial-->
     <div class="container1">
             <div class="sub-container1">
-                <h2>This website is awesome</h2>
-                <p>This website has some subtext that goes here under the main title. It`s a smaller font and the color is lower contrast</p>
-                <button class="btn-up">Sing up</button>
+                <h2>Re:Zero - Rutas de Subaru</h2>
+                <p>Aquí descubrirán historias no exploradas de la trama original. Desenlaces únicos, personajes 
+                    inéditos y decisiones que alteran el destino aguardan. Únanse a nosotros en la exploración de
+                     posibilidades que desafiarían las expectativas y enaltecen el mundo de "Re:Zero".</p>
+                <button class="btn-up"><span>leer mas...</span></button>
             </div>
             <div class="box-img">
-                <img src="./imgs/img1.jpg" alt="stronoff">
+                <img src="./imgs/re4.jpg" alt="stronoff">
             </div>
     </div>
 <!--? Contenido 2 -->
@@ -72,7 +107,7 @@
                 <p>Sign up fot our product by clicking that button right over there!</p>
             </div>
             <div class="box-btn">
-                <button class="btn-up2">Sing up</button>
+                <button class="btn-up2"><span>Sing up</span></button>
             </div>
         </div>
 

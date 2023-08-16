@@ -24,7 +24,7 @@ header{
 .nav-bar a{
     text-decoration:none;
     color: #f9faf8;
-    font-size: 15px;
+    font-size: 20px;
 }
 /*?Contenido inicial*/
 .container1{
@@ -63,6 +63,7 @@ header{
     height: 200px;
 }
 .btn-up{
+    display: flex;
     background: #3882f6;  
     border-radius: 5px;
     border: .5px solid #3882f6;
@@ -70,6 +71,16 @@ header{
     color: white;
     font-weight: bolder;
     margin-top: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn-up:hover{
+    border:1px solid #f9faf8;
+    background: #3882f6;
+    transition: .3s; 
+}
+.btn-up:active{
+    transform: scale(.5);
 }
 /*?INFORMACION DE PAG*/
 .contenido{
@@ -144,6 +155,17 @@ header{
     margin-top: 10px;
     font-size: 15px;
     font-weight: bolder;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn-up2:hover{
+    border:1px solid #3882f6;
+    background: #e5e7eb;
+    color: #3882f6;
+    transition: .3s; 
+}
+.btn-up2:active{
+    transform: scale(.5);
 }
 .txt{
     display: flex;
