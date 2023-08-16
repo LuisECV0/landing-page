@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: sans-serif, Arial, Helvetica, sans-serif ;
+ 
 }
 /*?barra de navegacion*/
 header{
@@ -87,7 +88,6 @@ header{
     text-align: center;
     display: flex;
     flex-direction: column;
-    
     padding-bottom: 40px;
 }
 .contenido h2{
@@ -161,8 +161,8 @@ header{
 .btn-up2:hover{
     border:1px solid #3882f6;
     background: #e5e7eb;
-    color: #3882f6;
-    transition: .3s; 
+    transition: .3s;
+    color: #3882f6; 
 }
 .btn-up2:active{
     transform: scale(.5);
