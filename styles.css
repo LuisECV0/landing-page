@@ -55,9 +55,8 @@ header{
 }
 .box-img{
     color: #f9faf8;
-    display: flex;
-    width: 50%;
     margin-bottom: 20px;
+    margin-right: 100px;
 }
 .box-img img{
     width: 400px;
@@ -83,6 +82,12 @@ header{
 .btn-up:active{
     transform: scale(.5);
 }
+.img-hover {
+    transition: transform 0.2s, opacity 0.2s;
+  }
+  .img-hover:hover {
+    transform: scale(2);
+  }
 /*?INFORMACION DE PAG*/
 .contenido{
     text-align: center;
