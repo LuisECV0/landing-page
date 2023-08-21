@@ -16,17 +16,37 @@ header{
     font-size: 10px;
     font-weight:bold;
 }
-.nav-bar{
-    list-style: none ;
+.nav-bar {
+    list-style: none;
     padding: 0;
     display: flex;
     gap: 20px;
+    align-items: center;
 }
-.nav-bar a{
-    text-decoration:none;
-    color: #f9faf8;
+.nav-bar a {
+    text-decoration: none;
     font-size: 20px;
+    color: #e5e7eb;
+    position: relative;
 }
+.nav-bar a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;  
+    left: 0;
+    right: 0;
+    height: 4px;  
+    background-color: #4b71af;
+    transform: scaleX(0); 
+    transform-origin: left;
+    transition: transform 0.25s ease-in-out; /* Agrega una transición suave */
+}
+
+/* Establece estilos para el subrayado al pasar el mouse */
+.nav-bar a:hover::before {
+    transform: scaleX(1); /* Escala para mostrar el subrayado */
+}
+
 /*?Contenido inicial*/
 .container1{
     display: flex;
@@ -82,12 +102,7 @@ header{
 .btn-up:active{
     transform: scale(.5);
 }
-.img-hover {
-    transition: transform 0.2s, opacity 0.2s;
-  }
-  .img-hover:hover {
-    transform: scale(2);
-  }
+
 /*?INFORMACION DE PAG*/
 .contenido{
     text-align: center;
@@ -114,9 +129,16 @@ header{
     text-align: center;
     color: rgb(131, 131, 131);
 }
-.content1 img{
-    max-width: 100%;
-}
+.img-hover{
+    transition: transform 0.2s;
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  .img-hover:hover {
+    transform: scale(1.7);
+    opacity: 1;
+    transition: .5s;
+  }
 /*?Mensaje en la pag*/
 .nota-adicional{
     background: #e5e7eb;
