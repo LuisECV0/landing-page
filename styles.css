@@ -39,12 +39,10 @@ header{
     background-color: #4b71af;
     transform: scaleX(0); 
     transform-origin: left;
-    transition: transform 0.25s ease-in-out; /* Agrega una transición suave */
+    transition: transform 0.25s ease-in-out;
 }
-
-/* Establece estilos para el subrayado al pasar el mouse */
 .nav-bar a:hover::before {
-    transform: scaleX(1); /* Escala para mostrar el subrayado */
+    transform: scaleX(1); 
 }
 
 /*?Contenido inicial*/
@@ -55,7 +53,7 @@ header{
     padding: 50px 60px;
 }
 .sub-container1{
-    color: #f9faf8;
+    color: #5B9A8B;
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -109,11 +107,12 @@ header{
     display: flex;
     flex-direction: column;
     padding-bottom: 40px;
+    background: #445069;
 }
 .contenido h2{
     margin: 20px;
     padding: 20px;
-    color: #1f2937;
+    color: white;
     font-weight: 800;
 }
 .sub-contenido{
@@ -127,7 +126,7 @@ header{
 }
 .content1 p{
     text-align: center;
-    color: rgb(131, 131, 131);
+    color: rgb(212, 212, 212);
 }
 .img-hover{
     transition: transform 0.2s;
@@ -142,7 +141,6 @@ header{
 /*?Mensaje en la pag*/
 .nota-adicional{
     background: #e5e7eb;
-    margin: 100px 0;
     padding: 50px 300px;
     display: flex;
     flex-direction: column;
@@ -159,10 +157,8 @@ header{
 }
 /*?Log de apoyo*/
 .space{
-    max-width: 70%;
-    padding-left: 15%;
-    margin-bottom: 100px;
-    font-size: 15px;
+    background:#445069;
+    padding: 50px 200px;
 }
 .sing-up{
     background: #3882f6;
