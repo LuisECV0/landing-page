@@ -22,3 +22,4 @@ Este proyecto tiene como objetivo crear una landing page informativa y atractiva
 ---
 
 ¡Esperamos que disfrutes explorando el mundo de las novelas ligeras de Re:Zero a través de esta Landing Page!📧🙂
+https://luisecv0.github.io/landing-page/
